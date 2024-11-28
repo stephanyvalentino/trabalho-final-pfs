@@ -73,6 +73,7 @@ app.AdicionarAtletaEnpoints();
 app.AdicionarUsuarioEnpoints();
 app.AdicionarLoginEnpoints();
 app.AdicionarTreinadorEndpoints();
+app.AdicionarUnidadeEndpoints();
 
 app.UseCors(builder => builder
     //.AllowAnyOrigin()
