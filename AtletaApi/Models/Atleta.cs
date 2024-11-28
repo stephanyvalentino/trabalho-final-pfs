@@ -8,5 +8,5 @@ public class Atleta
     public string Nome { get; set; } = string.Empty;
     public double Altura { get; set; }
     public double Peso { get; set; }
-    public long TreinadorId { get; set; } 
+    public long? TreinadorId { get; set; } 
 }
