@@ -10,6 +10,7 @@ const BarraNavegacao = ({ setFalha }) => {
                 <Link className="navbar-brand" to="/">Home</Link>
                 <Link className="navbar-brand" to="/atletas">Atletas</Link>
                 <Link className="navbar-brand" to="/treinadores">Treinador</Link>
+                <Link className="navbar-brand" to="/unidades">Unidade</Link>
                 <Logout setFalha={setFalha} />
             </div>
         </nav>
